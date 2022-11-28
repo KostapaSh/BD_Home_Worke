@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS music_genre(
-	id SERIAL RIMARY KEY,
+	id SERIAL PRIMARY KEY,
 	title_genre varchar(60) NOT NULL
 );
 
@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS artist(
 CREATE TABLE IF NOT EXISTS album(
 	id SERIAL PRIMARY KEY,
 	title varchar(60) NOT NULL,
-	year_issue date NOT NULL
+	year_issue integer NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS genre_artist(
@@ -29,14 +29,14 @@ CREATE TABLE IF NOT EXISTS album_artist(
 CREATE TABLE IF NOT EXISTS tracks(
     id SERIAL PRIMARY KEY,
     title varchar(60) NOT NULL,
-    duration integer NOT NULL,
+    duration varchar(60) NOT NULL,
     album_id integer NOT NULL REFERENCES album (id)
 );
 
 CREATE TABLE IF NOT EXISTS collection(
     id SERIAL PRIMARY KEY,
     title varchar(60) NOT NULL,
-    year_issue date NOT NULL
+    year_issue integer NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS tracks_collection(
@@ -44,3 +44,6 @@ CREATE TABLE IF NOT EXISTS tracks_collection(
     tracks_id integer NOT NULL REFERENCES tracks (id),
     collection_id integer NOT NULL REFERENCES collection (id)
 );
+
+
+
