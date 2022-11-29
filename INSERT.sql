@@ -70,52 +70,52 @@ VALUES('Vinyl', '2019');
 -------------------tracks-----------------------
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Duke is Place', '5:46', '2');
+VALUES('Duke is Place', '5:46', '1');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Cottontail', '4:30', '2');
+VALUES('Cottontail', '4:30', '1');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Paper Dolls', '5:13', '3');
+VALUES('Paper Dolls', '5:13', '2');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Bottom Coming Up', '4:50', '3');
+VALUES('Bottom Coming Up', '4:50', '2');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Father of All…', '6:15', '4');
+VALUES('Father of All…', '6:15', '3');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Fire, Ready, Aim', '5:25', '4');
+VALUES('Fire, Ready, Aim', '5:25', '3');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Hereafter', '4:40', '5');
+VALUES('Hereafter', '4:40', '4');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Mortal After All', '3:25', '5');
+VALUES('Mortal After All', '3:25', '4');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('One More Day', '5:14', '6');
+VALUES('One More Day', '5:14', '5');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('My God', '4:55', '6');
+VALUES('My God', '4:55', '5');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Those Kinda Nights', '6:01', '7');
+VALUES('Those Kinda Nights', '6:01', '6');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('In Too Deep', '4:12', '7');
+VALUES('In Too Deep', '4:12', '6');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Stamps', '3:15', '8');
+VALUES('Stamps', '3:15', '7');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('My Secret', '4:43', '8');
+VALUES('My Secret', '4:43', '7');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Forever Young', '4:15', '9');
+VALUES('Forever Young', '4:15', '8');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Tourist', '5:13', '9');
+VALUES('Tourist', '5:13', '8');
 
 -------------------compilations--------------------
 
@@ -146,28 +146,28 @@ VALUES('The bullshit collection returns №4', '2021');
 ----------------------album_artist-------------------
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('2', '1');
+VALUES('1', '1');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('3', '4');
+VALUES('2', '2');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('4', '5');
+VALUES('3', '3');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('5', '6');
+VALUES('4', '4');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('6', '7');
+VALUES('5', '5');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('7', '8');
+VALUES('6', '6');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('8', '9');
+VALUES('7', '7');
 
 INSERT INTO album_artist (album_id, artist_id)
-VALUES('9', '10');
+VALUES('8', '8');
 
 -----------------------genre_artist------------------
 
@@ -175,25 +175,25 @@ INSERT INTO genre_artist (genre_id, artist_id)
 VALUES('1', '1');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('2', '4');
+VALUES('2', '2');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('3', '5');
+VALUES('3', '3');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('3', '6');
+VALUES('3', '4');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('4', '7');
+VALUES('4', '5');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('4', '8');
+VALUES('4', '6');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('5', '9');
+VALUES('5', '7');
 
 INSERT INTO genre_artist (genre_id, artist_id)
-VALUES('5', '10');
+VALUES('5', '8');
 
 ----------------------tracks_collection--------------
 
