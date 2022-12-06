@@ -70,52 +70,52 @@ VALUES('Vinyl', '2019');
 -------------------tracks-----------------------
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Duke is Place', '5:46', '1');
+VALUES('Duke is Place', '546', '1');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Cottontail', '4:30', '1');
+VALUES('Cottontail', '430', '1');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Paper Dolls', '5:13', '2');
+VALUES('Paper Dolls', '513', '2');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Bottom Coming Up', '4:50', '2');
+VALUES('Bottom Coming Up', '450', '2');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Father of All…', '6:15', '3');
+VALUES('Father of All…', '615', '3');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Fire, Ready, Aim', '5:25', '3');
+VALUES('Fire, Ready, Aim', '525', '3');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Hereafter', '4:40', '4');
+VALUES('Hereafter', '440', '4');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Mortal After All', '3:25', '4');
+VALUES('Mortal After All', '325', '4');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('One More Day', '5:14', '5');
+VALUES('One More Day', '514', '5');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('My God', '4:55', '5');
+VALUES('My God', '455', '5');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Those Kinda Nights', '6:01', '6');
+VALUES('Those Kinda Nights', '601', '6');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('In Too Deep', '4:12', '6');
+VALUES('In Too Deep', '412', '6');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Stamps', '3:15', '7');
+VALUES('Stamps', '315', '7');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('My Secret', '4:43', '7');
+VALUES('My Secret', '443', '7');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Forever Young', '4:15', '8');
+VALUES('Forever Young', '415', '8');
 
 INSERT INTO tracks (title, duration, album_id)
-VALUES('Tourist', '5:13', '8');
+VALUES('Tourist', '513', '8');
 
 -------------------compilations--------------------
 
@@ -168,6 +168,9 @@ VALUES('7', '7');
 
 INSERT INTO album_artist (album_id, artist_id)
 VALUES('8', '8');
+
+INSERT INTO album_artist (album_id, artist_id)
+VALUES('2', '5');
 
 -----------------------genre_artist------------------
 
